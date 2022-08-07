@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+body{
+	background:#272727;
+}
+
+.abs_at_dj {
+    p {
+        color: white;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .paraa_at_dj {
+        margin-top: 40px;
+        color: #ffffff;
+    }
+}
+  .programsMain_at_dj {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	  width: 100%;
+	  height: 100vh;
+
+	  background: url("https://images.unsplash.com/photo-1581527106934-25bc16f1d310?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+	  background-size: cover;
+
+      .label_at_dj {
+        font-size: 72px;
+        margin-top: -30px;
+        margin-bottom: 30px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #e4381C;
+        font-size: 20px;
+      }
+
+      &:hover{
+		border-bottom: 3px solid transparent;
+		border-image: linear-gradient(to right, #e16521, #e4381C);
+		border-image-slice: 1;
+	}
+	}
+
+.who_at_dj{
+	color: aliceblue;
+	padding-top: 40px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+	overflow: hidden;
+
+    .para_at_dj{
+        margin: 30px;
+        padding: 20px;
+        font-size: 16px;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+    }
+}
+
+.info_at_dj{
+	color: white;
+	padding: 50px;
+	display: flex;
+	background: black;
+	text-align: left;
+
+    #about_at_dj{
+        margin: 30px;
+        padding: 20px;
+        font-size: 28px;
+        font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+        color:#FC2428;
+    }
+    
+    #data_at_dj{
+            margin: 30px 30px 0px 30px;
+            padding: 20px;
+        
+            font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+            color:white;
+    }
+    .para_at_dj{
+        margin: 30px;
+        padding: 20px;
+        font-size: 16px;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+    }
+    
+    #graph_at_dj{
+            margin: 30px 30px 0px 30px;
+            padding: 20px;
+            font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+            font-size: 16px;
+    }
+}
+
+

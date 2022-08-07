@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+/* Footer*/
+footer {
+  text-align: center;
+  color: #fff;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .date {
+  font-weight: 600;
+  font-size: 28px;
+  color: #e4381C;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer .place {
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer .eventDesc {
+  margin: auto;
+  width: 40%;
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer .joinUs {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #e4381C;
+  color: white;
+  border: none;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+footer .joinUs a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .joinUs:hover {
+  background-color: #b32711;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+footer .copyright {
+  margin-top: 200px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: gray;
+}
+
+footer .copyright a {
+  color: #e4381C;
+}
+
+@media screen and (max-width: 620px) {
+  footer {
+    text-align: center;
+    overflow: hidden;
+    width: 400px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

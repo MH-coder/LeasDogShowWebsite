@@ -1,0 +1,16 @@
+@media screen and (max-width: 426px) {
+    .cross{
+        height: fit-content;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .text{
+            width: 90%;
+        }
+
+        .im{
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+html {
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#greeting {
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading_gs_mh {
+    margin: 15px;
+    font-size: 79px;
+}
+
+#bg_gs_mh {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    
+}
+
+#para_gs_mh {
+    text-align: center;
+    margin: 10px;
+}
+#link_gs_mh{
+    margin-top: 10px;
+}
+#link_gs_mh a {
+    color: #e4381C;
+    text-decoration: none;
+}
+#link_gs_mh a:hover{
+    color: white;
+}

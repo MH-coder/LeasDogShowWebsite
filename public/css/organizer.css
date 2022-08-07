@@ -1,0 +1,122 @@
+.Main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+  background-size: cover;
+  background-position: 400px 0px;
+}
+
+.Main p {
+  position: absolute;
+  z-index: 0;
+}
+
+.Main .label {
+  font-size: 55px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.Main .para {
+  margin-top: 40px;
+  color: #e4381C;
+  color: white;
+}
+
+.Main .para a {
+  text-decoration: none;
+  color: #e4381C;
+  font-size: 20px;
+}
+
+.cross {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  width: 100%;
+  height: 600px;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  -o-border-image: linear-gradient(to right, #e16521, #e4381C);
+     border-image: -webkit-gradient(linear, left top, right top, from(#e16521), to(#e4381C));
+     border-image: linear-gradient(to right, #e16521, #e4381C);
+  border-image-slice: 1;
+}
+
+.cross .text {
+  width: 40%;
+}
+
+.cross .text #text1 {
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.cross .text #text2 {
+  color: white;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.cross .text #text3 {
+  color: white;
+  font-size: 14px;
+  font-weight: 0px;
+  padding-top: 5px;
+}
+
+.cross .im {
+  width: 40%;
+}
+
+.cross .im img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
+
+@media screen and (max-width: 426px) {
+  .cross {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cross .text {
+    width: 90%;
+  }
+  .cross .im {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=organizer.css.map */

@@ -1,0 +1,101 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.body_bg_mh {
+  width: 100%;
+  height: 100%;
+  background: url("../images/home/joe-caione-qO-PIF84Vxg-unsplash.jpg");
+  background-size: cover;
+  background-position-x: left;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.body_bg_mh .landing_he_mh {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 180px;
+}
+
+.body_bg_mh .landing_he_mh .title_he_mh {
+  margin: 10px 30px;
+  color: #e4381C;
+  font-weight: 100;
+}
+
+.body_bg_mh .landing_he_mh .title_he_mh hr {
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  width: 100px;
+}
+
+.body_bg_mh .landing_he_mh .text_he_mh {
+  color: white;
+  margin: 10px 30px;
+  width: 500px;
+  font-size: 24px;
+}
+
+.body_bg_mh .landing_he_mh .btn_he_mh {
+  margin: 10px 30px;
+  color: white;
+}
+
+.body_bg_mh .landing_he_mh .btn_he_mh button {
+  color: white;
+  background-image: -webkit-gradient(linear, left top, right top, from(#e16521), to(#e4381C));
+  background-image: linear-gradient(to right, #e16521, #e4381C);
+  outline: none;
+  border: none;
+  width: 180px;
+  height: 50px;
+}
+
+.body_bg_mh .landing_he_mh .btn_he_mh button a {
+  text-decoration: none;
+  color: white;
+}
+
+.body_bg_mh .landing_he_mh .btn_he_mh button:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#e4381C), to(#e16521));
+  background-image: linear-gradient(to right, #e4381C, #e16521);
+  -webkit-transition: background-image 0.4s;
+  transition: background-image 0.4s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 426px) {
+  .text_he_mh {
+    overflow: hidden;
+  }
+  .text_he_mh h1 {
+    font-size: 30px;
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=index.css.map */

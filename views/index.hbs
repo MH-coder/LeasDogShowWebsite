@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    {{!-- Timer --}}
+    <link rel="stylesheet" href="css/style.css">
+    {{!-- Timer --}}
+
+    <!-- Nav -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/navBar.css">
+    <!-- Nav -->
+
+    <!-- home -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- home -->
+
+    <!-- Organizer -->
+    <link rel="stylesheet" href="css/organizer.css">
+    <!-- Organizer -->
+
+    <!-- Programs -->
+    <link rel="stylesheet" href="css/programs.css">
+    <!-- Programs -->
+
+    <!-- info -->
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- info -->
+
+</head>
+
+<body>
+    <!-- Nav -->
+    {{>navBar}}
+    <!-- Nav -->
+
+    <!-- Home Landing -->
+    <div class="body_bg_mh">
+        <div class="landing_he_mh">
+            <div class="title_he_mh">
+                <h3>
+                    <hr> AT DEC 12, 2021
+                </h3>
+            </div>
+
+            <div class="text_he_mh">
+                <h1>JOIN US AT THE DOGGY CON OF 2021</h1>
+                <p>Organized By Lea Mae</p>
+            </div>
+
+            <div class="btn_he_mh">
+                <button><a href="/join-us">BUY TICKETS</a></a></button>
+            </div>
+        </div>
+    </div>
+    <!-- Home Landing -->
+
+    <!-- ORGANIZER -->
+    {{>organizer}}
+    <!-- ORGANIZER -->
+
+    {{!-- TIMER --}}
+    <div class="countdownTimer" style="color: white;">
+        <h1 style="text-align: center; margin-top:20px">EVENT COUNTDOWN</h1>
+    </div>
+    <div class="flipper" data-reverse="true" data-datetime="2021-12-07 00:00:00" data-template="ddd|HH|ii|ss" data-labels="Days|Hours|Minutes|Seconds" id="myFlipper"></div>
+    {{!-- TIMER --}}
+
+    <!-- Programs -->
+    {{>programs}}
+    <!-- Programs -->
+
+    <!-- Info -->
+    {{>footer}}
+    <!-- Info -->
+    
+    {{!-- TIMER --}}
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="jQuery/jquery.flipper-responsive.js"></script>
+    <script>
+        jQuery(function ($) {
+            $('#myFlipper').flipper('init');
+            $('#modalFlipper').flipper('init');
+        });
+    </script>
+    {{!-- TIMER --}}
+</body>
+
+</html>
